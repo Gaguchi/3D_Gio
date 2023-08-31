@@ -56,11 +56,13 @@ mm.add({
     },
   });
 
-  t1.fromTo(camera.position, { y: -4 }, { y: 2 })
-        .to(scene.rotation, { y: 0 })
+  t1.fromTo(camera.position, { y: -20 }, { y: 5 })
+        .to(camera.position,  { y: 5 })
+        .to(scene.position,  { z: 25 })
+        .to(scene.rotation, { y: 0.8 })
         .to(scene.rotation, { z: 0 }, "key1")
-        .to(camera.position,  { y: 2 }, { y: 4 }, "key1")
-        .to(scene.position, { y: 0, z: 2, x:4 }, "key2")
+        .to(camera.position,  { y: 16 }, "key1")
+        .to(scene.position, { y: 10, z: 30, x:4 }, "key2")
         .to(camera.position, { y: 4 }, { y: 2 }, "key2")
         //.to(scene.rotation, { z: 8, y: 6.3 }, "key3")
         .to(camera.position, { y: 2 }, { y: 2 }, "key3");
