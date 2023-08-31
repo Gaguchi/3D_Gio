@@ -41,5 +41,5 @@ Variables:
   --fontR: "Source Sans Pro";
   
   // gradient
-  --gradient: #35c3f3 0%, #8b9fe8 20%, #e681d8 39%, #ffa9a4 76%, #fed2ce 100%;
+  --gradient: #000000 0%, #000000 20%, #000000 39%, #000000 76%, #000000 100%;
 }
