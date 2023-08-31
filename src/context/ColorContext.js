@@ -10,9 +10,9 @@ export const ColorContext = createContext({});
 export const ColorContextProvider = ({children}) => {
     const { materials } = useGLTF("/Gio.gltf");
     const [currentColor, serCurrentColor] = useState({
-        color:"#9BB5CE",
-        text:"Sierra Blue",
-        rgbColor:"155, 181, 206",
+        color:"#000000",
+        text:"Jet Black",
+        rgbColor:"0, 0, 0",
     })
 
     let changeColorContext = (colorObj) => {

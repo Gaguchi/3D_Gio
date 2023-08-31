@@ -167,9 +167,9 @@ const PricingSection = () => {
 
           <Colors>
             <Color
-              color="#9BB5CE"
+              color="#000000"
               onClick={() =>
-                updateColor("#9BB5CE", "Sierra Blue", "155, 181, 206")
+                updateColor("#000000", "Jet Black", "155, 181, 206")
               }
             />
             <Color

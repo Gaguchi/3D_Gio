@@ -18,7 +18,7 @@ export default function Model2({ ...props }) {
 
   useLayoutEffect(() => {
     camera.position.set(-0.1,0.4,5);
-    //materials.Body.color.set("#9BB5CE");
+    materials.Body.color.set("#000000");
         
   }, []);
 
@@ -26,14 +26,14 @@ export default function Model2({ ...props }) {
     <group {...props} dispose={null}>
       <group position={[1.067, 6.6, 0.596]} rotation={[Math.PI / 2, 0, 0]} scale={56.128}>
         <mesh geometry={nodes.Curve001.geometry} material={materials['Material.004']} />
-        <mesh geometry={nodes.Curve001_1.geometry} material={materials['Material.001']} />
+        <mesh geometry={nodes.Curve001_1.geometry} material={materials.Body} />
         <mesh geometry={nodes.Curve001_2.geometry} material={materials['Material.002']} />
         <mesh geometry={nodes.Curve001_3.geometry} material={materials['Material.003']} />
         <mesh geometry={nodes.Curve001_4.geometry} material={materials['SVGMat.001']} />
         <mesh geometry={nodes.Curve001_5.geometry} material={materials['Material.005']} />
         <mesh geometry={nodes.Curve001_6.geometry} material={materials['Material.006']} />
-        <mesh geometry={nodes.Curve001_7.geometry} material={materials.Material} />
-        <mesh geometry={nodes.Curve001_8.geometry} material={materials['Material.009']} />
+        <mesh geometry={nodes.Curve001_7.geometry} material={materials.Body} />
+        <mesh geometry={nodes.Curve001_8.geometry} material={materials.nail} />
       </group>
     </group>
   );

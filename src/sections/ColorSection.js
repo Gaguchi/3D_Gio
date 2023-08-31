@@ -117,9 +117,9 @@ const ColorSection = () => {
       })
       .to(Elem, {
         onStart: updateColor,
-        onStartParams: ["#9BB5CE", "Sierra Blue", "155, 181, 206"],
+        onStartParams: ["#000000", "Jet Black", "0, 0, 0"],
         onReverseComplete: updateColor,
-        onReverseCompleteParams: ["#9BB5CE", "Sierra Blue", "155, 181, 206"],
+        onReverseCompleteParams: ["#000000", "Jet Black", "0, 0, 0"],
       })
       .to(Elem, {
         onStart: updateColor,

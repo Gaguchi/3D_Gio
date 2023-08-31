@@ -149,7 +149,7 @@
         },
         {
             "doubleSided" : true,
-            "name" : "Material",
+            "name" : "Body",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
                     0,
@@ -163,7 +163,7 @@
         },
         {
             "doubleSided" : true,
-            "name" : "Material.009",
+            "name" : "nail",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 2
