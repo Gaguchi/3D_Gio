@@ -56,16 +56,17 @@ mm.add({
     },
   });
 
-  t1.fromTo(camera.position, { y: -20 }, { y: 5 })
-        .to(camera.position,  { y: 5 })
-        .to(scene.position,  { z: 25 })
-        .to(scene.rotation, { y: 0.8 })
-        .to(scene.rotation, { z: 0 }, "key1")
-        .to(camera.position,  { y: 16 }, "key1")
-        .to(scene.position, { y: 10, z: 30, x:4 }, "key2")
-        .to(camera.position, { y: 4 }, { y: 2 }, "key2")
+  t1.fromTo(camera.position, { y: -30 }, { y: 7 })
+        .to(camera.position,  { z: 85 })
+        .to(scene.rotation, { y: 1.5 })
+        .to(scene.rotation, { x: 0.5 })
+        .to(scene.rotation, { y: 3.3 }, "key1")
+        .to(scene.rotation, { x: 0.35 }, "key1")
+        .to(camera.position,  { y: 7 }, "key1")
+        //.to(scene.position, { y: 10, z: 30, x:4 }, "key2")
+        //.to(camera.position, { y: 4 }, { y: 2 }, "key2")
         //.to(scene.rotation, { z: 8, y: 6.3 }, "key3")
-        .to(camera.position, { y: 2 }, { y: 2 }, "key3");
+        //.to(camera.position, { y: 2 }, { y: 2 }, "key3");
 
 
         if(isMobile){
