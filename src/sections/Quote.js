@@ -102,27 +102,27 @@ const Quote = () => {
       <TextContainer>
         <Text delay="0s">
           {" "}
-          <span>&#8220; You can't connect the dots looking forward;</span>{" "}
+          <span>&#8220; The best and safest thing is to keep a balance in your life,</span>{" "}
         </Text>
         <Text delay="0.4s">
           {" "}
           <span>
-            &nbsp;&nbsp;&nbsp;you can only connect them looking backward.
+            &nbsp;&nbsp;&nbsp;acknowledge the great powers around us and in us.
           </span>{" "}
         </Text>
         <Text delay="0.8s">
           {" "}
-          <span>&nbsp;&nbsp;&nbsp;so you have to trust that the dots</span>{" "}
+          <span>&nbsp;&nbsp;&nbsp;If you can do that, and live that way,</span>{" "}
         </Text>
         <Text delay="1.2s">
           {" "}
           <span>
-            &nbsp;&nbsp;&nbsp;will somehow connect in your future. &#8221;
+            &nbsp;&nbsp;&nbsp;you are really a wise man. &#8221;
           </span>{" "}
         </Text>
         <Text delay="1.6s">
           {" "}
-          <span className="author">&#x23AF; Steve Jobs</span>{" "}
+          <span className="author">&#x23AF; Euripides</span>{" "}
         </Text>
       </TextContainer>
     </Section>

@@ -15,13 +15,16 @@ export default function Model3({ ...props }) {
   const { nodes, materials } = useGLTF("/Gio.gltf");
 
   let camera = useThree((state) => state.camera);
+  let scene = useThree((state) => state.scene);
 
   useLayoutEffect(() => {
-    camera.position.set(-0.1,0.4,5);
+    camera.position.set(70,0,0);
+    scene.position.set(0,-8,0);
+    scene.rotation.set(0,1.5,0);
     materials.Body.color.set("#000000");
 
     if(window.matchMedia("(max-width: 48em)").matches){
-      camera.fov = 18;
+      camera.fov = 30;
       camera.updateProjectionMatrix();
     }
         
