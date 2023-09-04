@@ -14,7 +14,8 @@ const Section = styled.section`
   justify-content: space-around;
   flex-direction: column;
 
-  background-color: var(--dark);
+  background-image: url(IMG_3118.JPEG);
+  background-position: center;
   color: var(--white);
 
   & > *:nth-child(even) {
@@ -156,26 +157,24 @@ const DisplaySection = () => {
   return (
     <Section>
       <MainTitle>
-        Immersive <br /> Display
+        Fine <br /> Craftsmaship
       </MainTitle>
       <TextBlockRight>
-        <Title>Super Ratine XDR Display</Title>
+        <Title>Superior Quality</Title>
         <Text>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          Necessitatibus dignissimos ipsam.
+        Our balance boards are meticulously crafted from the finest materials, ensuring durability and long-lasting performance.
         </Text>
       </TextBlockRight>
       <TextBlockLeft ref={container}>
-        <Title>Big is better</Title>
+        <Title>Handmade Precision</Title>
         <Text>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          Necessitatibus dignissimos ipsam.
+        Each board is handcrafted by skilled artisans, guaranteeing a unique piece that meets the highest standards of craftsmanship.
         </Text>
       </TextBlockLeft>
 
       <TextContainer>
-        <MovingText ref={textOne}>Tougher then ever!</MovingText>
-        <MovingText ref={textTwo}>Every touch matters.</MovingText>
+        <MovingText ref={textOne}>Crafted Excellence!</MovingText>
+        <MovingText ref={textTwo}>Built to Last.</MovingText>
       </TextContainer>
     </Section>
   );

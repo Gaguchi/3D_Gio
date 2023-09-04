@@ -1,6 +1,6 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
-import a15 from "../assets/Images/A15-Bionic.jpg";
+import a15 from "../assets/Images/IMG_1536.JPG";
 
 const Section = styled.section`
   width: 100vw;
@@ -116,21 +116,16 @@ const Text = styled.div`
 const ProcessorSection = () => {
   return (
     <Section>
-      <Title>Fastest Processor</Title>
+      <Title>Market Maverick</Title>
       <Processor>
         <img src={a15} alt="A15 processor" />
       </Processor>
       <Text>
         <span>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Reprehenderit numquam quae nisi, dolore cum voluptatem cumque quo sit,
-          consequuntur necessitatibus iste fuga assumenda deserunt aut omnis,
-          quaerat aliquid optio veniam.
+        Our brand is radically disrupting the balance board industry, setting new benchmarks for quality and functionality. By marrying artisan craftsmanship with state-of-the-art design, we've elevated the user experience to unparalleled heights.
         </span>
         <span>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Reprehenderit numquam quae nisi, dolore cum voluptatem cumque quo sit,
-          consequuntur necessitatibus iste fuga assumenda deserunt aut.
+        Our relentless pursuit of innovation is what truly sets us apart. We're not just creating balance boards; we're reimagining what a balance board can be. This bold approach has not only differentiated us from competitors but also propelled us to the forefront of a market ripe for change.
         </span>
       </Text>
     </Section>

@@ -63,7 +63,7 @@ body{
   --fontR: "Source Sans Pro";
   
   // gradient
-  --gradient: #35c3f3 0%, #8b9fe8 20%, #e681d8 39%, #ffa9a4 76%, #fed2ce 100%;
+  --gradient: #ffffff 0%, #f4e4ba 25%, #ffdf80 50%, #d4af37 75%, #8b4513 100%;
 }
 
 

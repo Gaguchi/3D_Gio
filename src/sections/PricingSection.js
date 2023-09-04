@@ -29,7 +29,7 @@ const Section = styled.div`
 `;
 const Phone = styled.div`
   width: 100%;
-  height: 70%;
+  height: 100%;
 
   display: flex;
   flex-direction: column;
@@ -199,15 +199,6 @@ const PricingSection = () => {
           </Colors>
         </Phone>
 
-        <Details>
-          <SubTitle>iPhone</SubTitle>
-          <Title>14 Pro Max</Title>
-          <SubTitle>From $1099*</SubTitle>
-          <ButtonContainer>
-            <Btn>Buy</Btn>
-            <BtnLink href="#">Learn More &#x2192;</BtnLink>
-          </ButtonContainer>
-        </Details>
       </Section>
     </Container>
   );

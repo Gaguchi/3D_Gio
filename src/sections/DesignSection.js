@@ -117,7 +117,7 @@ const DesignSection = () => {
       </TextContainer>
 
       <TextContainer2 ref={textTwo}>
-        <span>Flat-edge design with toughest smartphone glass.</span>
+        <span>Unparalleled stability and build quality.</span>
       </TextContainer2>
     </Section>
   );
