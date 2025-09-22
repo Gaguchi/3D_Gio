@@ -1,5 +1,14 @@
-# Use a lightweight Nginx image
-FROM nginx:1.26.2-alpine
+# Stage 1: Build the React application
+FROM node:18-alpine as build-stage
+WORKDIR /app
+COPY package.json .
+COPY package-lock.json .
+RUN npm install
+COPY . .
+RUN npm run build
 
-# Copy the files from your repo into the default Nginx directory
-COPY . /usr/share/nginx/html
+# Stage 2: Serve the compiled application with Nginx
+FROM nginx:1.26.2-alpine
+COPY --from=build-stage /app/build /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
