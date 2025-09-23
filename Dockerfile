@@ -3,9 +3,10 @@ FROM node:18-alpine as build-stage
 WORKDIR /app
 COPY package.json .
 COPY package-lock.json .
+RUN npx update-browserslist-db@latest
 RUN npm install
 COPY . .
-RUN npx run build
+RUN npm run build
 
 # Stage 2: Serve the compiled application with Nginx
 FROM nginx:1.26.2-alpine
